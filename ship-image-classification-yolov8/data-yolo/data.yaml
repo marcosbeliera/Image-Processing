@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Fishing Boat', 'Merchant Ship', 'Military Ship', 'Patrol Boat', 'Sails Boat', 'Submarine', 'Tugboat', 'Yacht']
+
+roboflow:
+  workspace: yehonatan-engel
+  project: sea-vessels-dataset
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yehonatan-engel/sea-vessels-dataset/dataset/2
